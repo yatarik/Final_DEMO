@@ -27,7 +27,7 @@ then
 else
 	printf "${RED} Directory $dirname exist ${NC}\n"
 fi;
-echo counter $count >> /dev/null
+printf counter $count 
 let count-=1
 done
 fi
