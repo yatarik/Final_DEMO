@@ -27,7 +27,7 @@ then
 else
 	printf "${RED} Directory $dirname exist ${NC}\n"
 fi;
-printf "counter $count" 
+printf "counter $count \n" 
 let count-=1
 done
 fi
