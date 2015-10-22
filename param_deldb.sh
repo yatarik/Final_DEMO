@@ -9,9 +9,9 @@ mysql --login-path=local  -e "show databases;"
 
 printf "\n<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>\n"
 
-printf  "\n Enter database name what you want to delete: \n"
+printf  " Enter database name what you want to delete: "
 read dbname 
-printf  "\n Enter DB username: \n"
+printf  " Enter DB username: "
 read dbuser
 
 
